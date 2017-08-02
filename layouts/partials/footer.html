@@ -1,3 +1,15 @@
+{{ "<!--footer-->" | safeHTML }}
+<footer class="well text-center text-muted">
+  <section class="lead">
+  {{- range .Site.Menus.social }}
+    <a href="{{ .URL }}" target="_blank"><i class="fa fa-{{ .Name }}"></i></a>
+  {{- end }}
+  </section>
+  <section>
+    {{ .Site.Copyright | safeHTML }}
+  </section>
+</footer>
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
