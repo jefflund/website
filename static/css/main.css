@@ -1,3 +1,7 @@
+body {
+  padding-top: 51px;
+}
+
 .content p {
   font-family: "Source Sans Pro", "Helvectica", "Arial", "sans-serif";
   font-size: 140%;

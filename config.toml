@@ -3,6 +3,21 @@ languageCode = "en-us"
 title = "Jeff Lund's Website"
 copyright = "&copy; Jeffrey Lund 2017"
 
+[[menu.navbar]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.navbar]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.navbar]]
+name = "Blog"
+url = "/"
+weight = 3
+
 [[menu.social]]
 name = "github"
 url = "https://github.com/jefflund"
