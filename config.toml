@@ -1,0 +1,6 @@
+baseurl = "https://jefflund.website"
+languageCode = "en-us"
+title = "Jeff Lund's Website"
+copyright = "&copy; Jeffrey Lund 2017"
+
+publishDir = "../www"
