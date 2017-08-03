@@ -1,0 +1,13 @@
+<p>
+{{ delimit .Params.author ", " " and " }}. {{ .Title}}. {{ .Params.booktitle }}, {{ .Weight }}
+{{- with .Params.pdf }}
+<a href="{{ . | absURL }}">[pdf]</a>
+{{- end }}
+{{- with .Params.slides }}
+<a href="{{ . | absURL }}">[slides]</a>
+{{- end }}
+{{- with .Params.code }}
+<a href="{{ . | absURL }}">[code]</a>
+{{- end }}
+<a href="{{ .URL | absURL }}">[bibtex]</a>
+</p>

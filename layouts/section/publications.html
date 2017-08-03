@@ -1,0 +1,6 @@
+{{ partial "header.html" . }}
+{{ "<!--publication list-->" | safeHTML }}
+{{- range .Paginator.Pages.Reverse }}
+{{ .Render "li" }}
+{{ end -}}
+{{ partial "footer.html" . }}

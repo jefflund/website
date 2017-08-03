@@ -17,8 +17,8 @@ url = "/about"
 weight = 2
 
 [[menu.navbar]]
-name = "Blog"
-url = "/"
+name = "Publications"
+url = "/publications"
 weight = 3
 
 [[menu.social]]

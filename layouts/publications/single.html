@@ -1,0 +1,8 @@
+<pre>
+@inproceedings{{ htmlEscape "{" }}{{ index ( split .URL "/") 2 }},
+  title = {{ htmlEscape "{" }}{{ .Title }}{{ htmlEscape "}" }},
+  author = {{ htmlEscape "{" }}{{ delimit .Params.author " and " }}{{ htmlEscape "}" }},
+  booktitle = {{ htmlEscape "{" }}{{ .Params.booktitle }}{{ htmlEscape "}" }},
+  year = {{ htmlEscape "{" }}{{ .Weight }}{{ htmlEscape "}" }},
+{{ htmlEscape "}" }}
+</pre>
