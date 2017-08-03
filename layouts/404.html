@@ -1,0 +1,6 @@
+{{ partial "header" . }}
+{{ "<!--cover-->" | safeHTML }}
+<div class="well cover text-center" style="background-image: url({{ .Site.Params.coverphoto | absURL }})">
+  <h1>404 page not found</h1>
+</div>
+{{ partial "footer" . }}
