@@ -1,5 +1,7 @@
 <p>
-{{ delimit .Params.author ", " " and " }}. {{ .Title}}. {{ .Params.booktitle }}, {{ .Weight }}
+{{ delimit .Params.author ", " " and " }}.
+{{ .Title}}.
+{{ .Params.booktitle }}, {{ .Weight }}
 {{- with .Params.pdf }}
 <a href="{{ . | absURL }}">[pdf]</a>
 {{- end }}

@@ -1,0 +1,7 @@
+{{ "<!--title-->" | safeHTML }}
+<div class="well text-center">
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <h3>{{ .Description }}</h3>
+  {{- end }}
+</div>

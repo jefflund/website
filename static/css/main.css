@@ -2,9 +2,9 @@ body {
   padding-top: 51px;
 }
 
-.content p {
+p {
   font-family: "Source Sans Pro", "Helvectica", "Arial", "sans-serif";
-  font-size: 140%;
+  font-size: 120%;
   line-height: 125%;
   margin-bottom: 1em;
 }
@@ -14,4 +14,9 @@ body {
   background-size: cover;
   padding: 5%;
   text-align: center;
+}
+
+.title-bar {
+  padding: .5%;
+  margin-bottom: 4%;
 }
