@@ -3,6 +3,9 @@ languageCode = "en-us"
 title = "Jeff Lund's Website"
 copyright = "&copy; Jeffrey Lund 2017"
 
+[params]
+coverphoto = "/img/cover.jpg"
+
 [[menu.navbar]]
 name = "Home"
 url = "/"

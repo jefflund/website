@@ -8,3 +8,10 @@ body {
   line-height: 125%;
   margin-bottom: 1em;
 }
+
+.cover {
+  background: no-repeat center center;
+  background-size: cover;
+  padding: 5%;
+  text-align: center;
+}
