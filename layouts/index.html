@@ -8,7 +8,7 @@
     </div>
     <div class="row">
 {{ "<!--begin feature-->" | safeHTML }}
-{{- range first 3 .Data.Pages }}
+{{- range first 3 (where .Data.Pages "Section" "posts") }}
 {{ .Render "feature" -}}
 {{ end }}
 {{- "<!--end feature-->" | safeHTML }}
