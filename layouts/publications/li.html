@@ -1,7 +1,7 @@
 <p>
-{{ delimit .Params.author ", " " and " }}.
-{{ .Title}}.
-{{ .Params.booktitle }}, {{ .Weight }}
+{{ replace (delimit .Params.author ", " " and ") "Jeffrey Lund" "<mark>Jeffrey Lund</mark>" | safeHTML }}.
+<strong>{{ .Title}}</strong>.
+<em>{{ .Params.booktitle }}, {{ .Weight }}</em>
 {{- with .Params.pdf }}
 <a href="{{ . | absURL }}">[pdf]</a>
 {{- end }}
