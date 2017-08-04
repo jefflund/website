@@ -2,7 +2,7 @@ baseurl = "https://jefflund.website"
 languageCode = "en-us"
 title = "Jeff Lund's Website"
 copyright = "&copy; Jeffrey Lund 2017"
-description = "This is a description"
+enableRobotsTXT = true
 
 [params]
 coverphoto = "/img/cover.jpg"
@@ -31,3 +31,8 @@ weight = 4
 name = "github"
 url = "https://github.com/jefflund"
 weight = 1
+
+[[menu.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/jeffrey-lund-3b488929"
+weight = 2
