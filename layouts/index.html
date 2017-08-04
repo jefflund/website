@@ -1,5 +1,19 @@
 {{ partial "header" . }}
-{{ "<!--cover-->" | safeHTML }}
-<div class="well cover" style="background-image: url({{ .Site.Params.coverphoto | absURL }})">
+{{ partial "cover" . }}
+{{ "<!--recent-->" | safeHTML }}
+<div class="container">
+  <div class="well">
+    <div class="text-center">
+      <h1>Recent Posts</h1>
+    </div>
+    <div class="row">
+{{ "<!--begin feature-->" | safeHTML }}
+{{- range first 3 .Data.Pages }}
+{{ .Render "feature" -}}
+{{ end }}
+{{- "<!--end feature-->" | safeHTML }}
+    </div>
+  </div>
 </div>
+
 {{ partial "footer" . }}

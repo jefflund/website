@@ -14,13 +14,6 @@ body {
     font-size: 120%;
 }
 
-.cover {
-  background: no-repeat center center;
-  background-size: cover;
-  padding: 5%;
-  text-align: center;
-}
-
 .title-bar {
   padding: .5%;
   margin-bottom: 4%;
@@ -34,4 +27,40 @@ body {
   margin-right: auto;
   margin-left: auto;
   margin-bottom: 4%;
+}
+
+.cover {
+  background: no-repeat center center;
+  background-size: cover;
+  padding: 5%;
+  text-align: center;
+}
+
+.cover h1 {
+  font-size: 5em;
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+  font-size: 5em;
+}
+
+@media(max-width: 767px) {
+  .cover h1 {
+    font-size: 3em;
+  }
+}
+
+.cover h3 {
+  text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+.cover img {
+  max-height: 200px;
+}
+
+.feature {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.feature:nth-child(3n+1) {
+  clear: left;
 }

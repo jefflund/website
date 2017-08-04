@@ -3,13 +3,11 @@
 {{ "<!--main-->" | safeHTML }}
 <div class="container content">
   <div class="row">
-    <div class="col-sm-8 col-sm-offset-2">
-{{ "<!--begin list-->" | safeHTML }}
-{{- range .Paginator.Pages.Reverse }}
-{{ .Render "li" }}
+{{ "<!--begin features-->" | safeHTML }}
+{{- range .Paginator.Pages }}
+{{ .Render "feature" -}}
 {{ end }}
-{{- "<!--end list-->" | safeHTML }}
-    </div>
+{{- "<!--end features-->" | safeHTML }}
   </div>
 </div>
 
