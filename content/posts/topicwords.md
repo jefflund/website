@@ -1,7 +1,8 @@
 +++
-date = "2017-08-03T17:32:11-06:00"
 title = "topicwords"
+description = """Token level topic assignment"""
+date = "2017-08-03"
 draft = true
-
 +++
 
+Token level topic assignment blah

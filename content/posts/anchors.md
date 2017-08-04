@@ -1,9 +1,9 @@
 +++
-date = "2017-08-03"
 title = "Anchor Words Algorithm Overview"
 description = """Anchor words is a fast and scalable topic modeling \
 algorithm, but the math is a bit dense. Here is a correct but simplified view \
 of the algorithm."""
+date = "2017-08-03"
 draft = true
 +++
 

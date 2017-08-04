@@ -1,7 +1,7 @@
 +++
-date = "2017-08-03T17:31:25-06:00"
-title = "generics"
+title = "The G-word in Go"
+description = """Generics"""
+date = "2017-01-06"
 draft = true
-
 +++
 

@@ -1,8 +1,8 @@
 +++
-date = "2017-02-08"
 title = "New Vim Pluging: EOLEOF"
 description = """Usually you want a newline at the end of a file. Sometimes \
 you don't. Here is how I fixed the problem in Vim."""
+date = "2017-02-08"
 banner = "img/eoleof.png"
 +++
 

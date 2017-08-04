@@ -1,9 +1,9 @@
 +++
-date = "2014-12-02"
 title = "Why Fast Food Succeeds"
 description = """After running some supervised topic modeling experiments on \
 Yelp data, here is what I've discovered about why people hate certain \
 restaurants."""
+date = "2014-12-02"
 draft = true
 +++
 

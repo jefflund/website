@@ -1,9 +1,9 @@
 +++
-date = "2012-09-15"
 title = "Mixing C into Python"
 description = """I wish I had known how incredibly easy ctypes is. \
 Here I show how rewriting the inner loop of my Python code in C led to \
 impressive performance gains."""
+date = "2012-09-15"
 draft = true
 +++
 
