@@ -1,7 +1,10 @@
 {{ partial "header" . }}
 {{ partial "title" . }}
 {{ "<!--main-->" | safeHTML }}
-<div class="container">
+<div class="container content">
+  {{- if .Params.banner }}
+  <img src="{{ .Params.banner | absURL }}" class="banner">
+  {{- end }}
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
 {{ "<!--begin content-->" | safeHTML }}

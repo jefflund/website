@@ -2,11 +2,16 @@ body {
   padding-top: 51px;
 }
 
-p {
+.content p {
   font-family: "Source Sans Pro", "Helvectica", "Arial", "sans-serif";
   font-size: 120%;
   line-height: 125%;
   margin-bottom: 1em;
+}
+
+.content li {
+    font-family: "Source Sans Pro", "Helvectica", "Arial", "sans-serif";
+    font-size: 120%;
 }
 
 .cover {
@@ -18,5 +23,15 @@ p {
 
 .title-bar {
   padding: .5%;
+  margin-bottom: 4%;
+}
+
+.banner {
+  height: auto;
+  max-height: 400px;
+  max-width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 4%;
 }
