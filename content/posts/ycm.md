@@ -1,7 +1,7 @@
 +++
 title = "Vim Plugin of the Day: YouCompleteMe"
-description = "YouCompleteMe is easily the best auto-complete engine for Vim \
-in existence. With this plugin, Vim becomes a full-powered IDE."""
+description = """YouCompleteMe is easily the best auto-complete engine for \
+Vim in existence. With this plugin, Vim becomes a full-powered IDE."""
 date = "2013-07-19"
 draft = true
 +++
