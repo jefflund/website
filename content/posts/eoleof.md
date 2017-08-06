@@ -128,7 +128,7 @@ This works because if the final 'line' is incomplete, then wc will return 0. If
 the file ends with a line, then the count is 1.
 
 As for preserving missing newlines at the end of files, I added the `setlocal
-nofixeol` to mt `ftplugin/html.vim`: With this options, any HTML file without a
+nofixeol` to my `ftplugin/html.vim`. With this option, any HTML file without a
 trailing newline will not have it automatically added. Unfortunately, I haven't
 figured out a clean way to have the EOLEOF plugin cleanly manage this option,
 so I just manually put it in my dotfiles as needed.
