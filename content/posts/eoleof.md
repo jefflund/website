@@ -1,5 +1,5 @@
 +++
-title = "New Vim Pluging: EOLEOF"
+title = "New Vim Plugin: EOLEOF"
 description = """Usually you want a newline at the end of a file. Sometimes \
 you don't. Here is how I fixed the problem in Vim."""
 date = "2017-02-08"
