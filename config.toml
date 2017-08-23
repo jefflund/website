@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Jeff Lund's Website"
 copyright = "&copy; Jeffrey Lund 2017"
 enableRobotsTXT = true
+enableEmoji = true
 
 [params]
 coverphoto = "/img/cover.jpg"
@@ -31,6 +32,11 @@ weight = 4
 name = "github"
 url = "https://github.com/jefflund"
 weight = 1
+
+[[menu.social]]
+name = "twitter"
+url = "https://twitter.com/jefflund_"
+weight = 3
 
 [[menu.social]]
 name = "linkedin"

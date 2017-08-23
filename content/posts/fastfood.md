@@ -4,7 +4,7 @@ description = """After running some supervised topic modeling experiments on \
 Yelp data, here is what I've discovered about why people hate certain \
 restaurants."""
 date = "2014-12-02"
-draft = true
+banner = "/img/fastfood/fastfood.jpg"
 +++
 
 ## Is Your Anchor Going Up or Down?
@@ -19,24 +19,36 @@ sentiment ratings into your topic model, you might discover a vampire romance
 topic with terms like "Buffy" and "Spike" for positive sentiment and a topic
 about vampire romance with terms like "Bella" and "Edward" having negative
 sentiment (I haven't read them, so I can only assume this is what would
-happen).
+happen :stuck_out_tongue:).
 
-Our paper basically gives a way to do this sort of topic modeling
+Our paper basically gives a way to do this sort of supervised topic modeling
 using an extension to the
 [Anchor Algorithm](https://arxiv.org/pdf/1212.4777.pdf).
-I won't bore you with the details, but basically our algorithm finds "anchor
-words" to anchor each topic. For example the word "twilight" might anchor our
-vampire topic associated negative sentiment.
+Without boring you with the mathematics, the vanilla anchor algorithm finds
+word which are able to unique represent or "anchor" a topic.
+Our extension allows this process of finding anchor words to be aware of
+metadata like sentiment labels.
+For example the word "twilight" might anchor the vampire topic associated
+negative sentiment.
 
 ## Supervised Anchors on Yelp
 
+<figure class="well">
+<img src="/img/fastfood/topics.png" class="img-responsive"/>
+<figcaption>
+Topics produced by vanilla anchors and supervised anchors on Yelp data. Anchor
+words shared by both vanilla anchors and supervised anchors are shown. Unique
+anchor words are listed along with the top ten words in the topic.
+</figcaption>
+</figure>
+
 Okay so we can do supervised topic modeling using some nifty anchor math. What
 amusing observations can we now make? One interesting experiment was running
-this algorithm on a bunch of Yelp restaurant reviews. Unsurprisingly, most of
-the topics were related to various types of food such as pizza, burgers or
-steak. Other topics were dedicated to specific cuisines such as French cuisine
-or Thai cuisine. There were even topics discussing drinks such as beer and
-wine.
+this algorithm on a bunch of Yelp restaurant reviews. First, we ran vanilla
+anchor words with no sentiment information. Unsurprisingly, most of the topics
+were related to various types of food such as pizza, burgers or steak. Other
+topics were dedicated to specific cuisines such as French cuisine or Thai
+cuisine. There were even topics discussing drinks such as beer and wine.
 
 Things got a little bit more interesting once we added in sentiment in the form
 of the star ratings from the Yelp reviews. With sentiment added, we can start
@@ -51,9 +63,12 @@ about the quality of the food using words like "gross" or "disgusting".
 Instead, the words associated with the most negative topics were things like
 "line", "wait", "long", "waiting" or "minutes."
 
-So what does this tell us? According to this analysis, the worst thing you can
-do for your ratings on Yelp is to have slow service. I suppose this actually
+So what does this tell us? According to this analysis, even though positive
+reviews tend to be about the quality of your food, if you really want to piss
+of your customers, the worst thing you can do is to have slow service. Having
+slow service is apparently even worse than having bad food, which didn't show
+up has a topic associated with the lowest reviews. I suppose this actually
 matches the last review I personally left which read something like "While the
 food was good, the service was terrible and we waited over 40 minutes for our
-food to arrive." I guess I now understand McDonald's success - cheap crappy
-food but at least it is fast.
+food to arrive." Maybe this is the secret the success of McDonald's - cheap
+crappy food but at least it is fast.
