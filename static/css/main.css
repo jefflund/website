@@ -64,3 +64,7 @@ body {
 .feature:nth-child(3n+1) {
   clear: left;
 }
+
+.feature img {
+  max-height: 250px;
+}

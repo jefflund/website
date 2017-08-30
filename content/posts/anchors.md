@@ -4,6 +4,7 @@ description = """Anchor words is a fast and scalable topic modeling \
 algorithm, but the math is a bit dense. Here is a correct but simplified \
 probabilistic view of the algorithm."""
 date = "2017-08-03"
+banner = "/img/anchor.jpg"
 +++
 
 # `WARNING: WORK IN PROGRESS`
