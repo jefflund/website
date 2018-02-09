@@ -2,7 +2,6 @@
 title = "Delta Clock Scheduling"
 description = """Fast and precise scheduling for turn-based roguelikes."""
 date = "2013-02-11"
-draft = true
 +++
 
-See my roguebasin article.
+See my roguebasin article. I'll eventually move it here with more detail.
