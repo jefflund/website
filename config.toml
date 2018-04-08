@@ -23,6 +23,11 @@ name = "Publications"
 url = "/publications"
 weight = 3
 
+[[menu.navbar]]
+name = "Resume"
+url = "/resume.pdf"
+weight = 4
+
 [[menu.social]]
 name = "github"
 url = "https://github.com/jefflund"
