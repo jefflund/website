@@ -25,12 +25,8 @@ integrating topic-based signals from Rephil in the prediction pipelines. We
 were able to demonstrate bid optimization improvements using these topic-based
 conversion rate predictions.
 
-Outside of academia I am interested in roguelike development. I've not finished
-any fun games, as the genre offers a lot of room for tinkerers to get their
-hands dirty playing around with interesting algorithms. I've written a few
-(non-referred articles) on such algorithms and in my spare time like to work on
-my vaporware roguelike project.
-
-I am also fairly passionate about certain development tools (e.g., Vim, Go,
-tmux) and will use my personal website to evangelize and share insights into
-how I use these tools.
+Outside of academia I am interested in roguelike development. I've a release a
+few small roguelikes. The genre offers a lot of room for tinkerers to get their
+hands dirty playing around with interesting algorithms, so my main project is
+mostly a vaporware project where I get to play around a lot. I've also written
+a few (non-refereed articles) on such algorithms and in my spare time.
