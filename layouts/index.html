@@ -1,3 +1,12 @@
 {{ partial "header" . }}
 {{ partial "cover" . }}
+<div class="container content">
+  <div class="row">
+    <div class="col-sm-8 col-sm-offset-2">
+{{ "<!--begin content-->" | safeHTML }}
+{{ .Content }}
+{{ "<!--end content-->" | safeHTML }}
+    </div>
+  </div>
+</div>
 {{ partial "footer" . }}

@@ -3,9 +3,7 @@
   <div class="row">
     {{- if .Params.profile }}
     <div class="col-sm-4">
-      <a href="{{ .Params.aboutURL | absURL }}">
-        <img src="{{ .Params.profile | absURL }}" class="img-circle">
-      </a>
+      <img src="{{ .Params.profile | absURL }}" class="img-circle">
     </div>
     <div class="col-sm-8">
     {{- else }}
