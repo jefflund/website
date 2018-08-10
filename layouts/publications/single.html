@@ -3,6 +3,6 @@
   title = {{ htmlEscape "{" }}{{ .Title }}{{ htmlEscape "}" }},
   author = {{ htmlEscape "{" }}{{ delimit .Params.author " and " }}{{ htmlEscape "}" }},
   booktitle = {{ htmlEscape "{" }}{{ .Params.booktitle }}{{ htmlEscape "}" }},
-  year = {{ htmlEscape "{" }}{{ .Weight }}{{ htmlEscape "}" }},
+  year = {{ htmlEscape "{" }}{{ .Params.year }}{{ htmlEscape "}" }},
 {{ htmlEscape "}" }}
 </pre>
