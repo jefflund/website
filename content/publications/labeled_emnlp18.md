@@ -6,5 +6,5 @@ year = "2018"
 weight = "9"
 
 code = "https://github.com/jefflund/ankura"
-pdf = "publications/labeled_emnlp17.pdf"
+pdf = "publications/labeled_emnlp18.pdf"
 +++
